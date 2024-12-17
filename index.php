@@ -46,13 +46,9 @@ $query = isset($parsedUrl['query']) ? $parsedUrl['query'] : '';
 
 switch ($path) {
     
-    case '/homepage':
-        require __DIR__ . $usersCrudDir . 'homepage.php'; 
-        break;
+   
 
-        case '/create_post':
-            require __DIR__ . $usersCrudDir . 'create_post.php'; 
-            break;
+       
             
               case '/create_posts':
             require __DIR__ . $usersMvcViewsDir . 'create_post.php'; 
@@ -106,17 +102,13 @@ switch ($path) {
 require __DIR__ . $usersCrudDir . 'login.php';
         break;
 
-    case '/login2':
-        require __DIR__ . $usersCrudDir . 'login2.php'; 
-        break;
+   
     
     case '/register2':
         require __DIR__ . $usersCrudDir . 'register2.php'; 
         break;
 
-    case '/welcome':
-        require __DIR__ . 'users/welcome.php'; 
-        break;
+   
 
 case '/manage_pages':
             require __DIR__ . $adminMvcViewsDir . 'manage_pages.php'; 
