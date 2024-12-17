@@ -1,0 +1,1 @@
+<?php //im not using a footer ?>
